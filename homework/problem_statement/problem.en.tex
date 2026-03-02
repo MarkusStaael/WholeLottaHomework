@@ -1,8 +1,8 @@
-\problemname{wholelottahomework}
-
+\problemname{A whole lotta homework}
 Your little sibling is in 2nd grade and needs help with their math homework. 
 For a few days, it goes well; however, due to bureaucratic restrictions, the teacher cannot give them more challenging problems.
 As a result, the teacher assigns increasingly large numbers of the same type of problems.
+\\
 \\
 When faced with up towards 100,000 problems each day, helping your sibling has become quite the hassle.
 Being the smart programmer you are, you decide to create a program that solves these problems automatically, and frees you from this commitment.
@@ -10,16 +10,16 @@ Being the smart programmer you are, you decide to create a program that solves t
 
 
 \section*{Input}
-
-The first line contains a single integer $n$ $(1 \le n \le 100\,000)$ — the number of problems.
-
-Each of the following $n$ lines contains a problem in the format
-\[
-a \; op \; b
-\]
-where $a$ and $b$ are integers $(0 \le a,b \le 99)$ and $op$ is either `+' or `-' representing the operation to perform.
-
-
-n lines of solutions to the mathmematical problems.
+The input consists of:
+    \begin{itemize}
+        \item One line with an integer $n$ $(1 \le n \le 100\,000)$ — the number of problems.
+        \item $n$ lines, each containing a problem with an integer $a$, an character $op$, and an integer $b$ in the format:
+            \[
+            a \; op \; b
+            \]
+            
+            where $a$ and $b$ are integers $(0 \le a,b \le 99)$ and $op$ is either `+' or `-' representing the operation to perform.
+    \end{itemize}
 
 \section*{Output}
+Output $n$ lines, each containing the solution to the corresponding problem in the input as an integer.
